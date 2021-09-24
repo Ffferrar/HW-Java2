@@ -62,6 +62,7 @@ public class Vector
             return false;
         }
         Vector vector = (Vector) obj;
+
         return this.length() == vector.length() && this.cos(vector) == 1.0;
     }
 }
