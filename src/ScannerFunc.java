@@ -28,5 +28,6 @@ public class ScannerFunc {
         System.out.println("Косинус угла между векторами 1 и 2 = " + vector1.cos(vector2));
         System.out.println("Сумма векторов 1 и 2 = (" + vectorAdd.myX() + ", " + vectorAdd.myY() + ", " + vectorAdd.myZ() + ")");
         System.out.println("Разность векторов 1 и 2 = (" + vectorSubstract.myX() + ", " + vectorSubstract.myY() + ", " + vectorSubstract.myZ() + ")");
+
     }
 }
